@@ -7,7 +7,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 
-const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || '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';
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || ' ';
 const API_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
 
 export async function POST(req: NextRequest) {
